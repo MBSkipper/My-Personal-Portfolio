@@ -47,13 +47,17 @@ p {
     }
 
 
+/* --About me and coding sections --*/
+    .about
+    .coding  {
+        display: block
 
+    }
 
+/* -- Projects section --*/
 
+/* -- Skills section --*/
 
-
-/* -- --*/
-
-/* -- --*/
+/* -- Footer section --*/
 
 /* -- --*/
