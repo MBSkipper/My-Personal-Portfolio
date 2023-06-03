@@ -3,6 +3,21 @@ html {
     font-size: 20px;
 }
 
+/* -- Body --*/
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    background-color:white;
+    text-align:left;
+  }
+
+p {
+        font-size: 1rem;
+    }
+
+
+
 /* -- Headings --*/
 
     h1{
@@ -23,11 +38,11 @@ html {
 
 /* --Navigation --*/
 
-/* -- Body --*/
 
-    p {
-        font-size: 1rem;
-    }
+
+
+
+
 
 /* -- --*/
 
