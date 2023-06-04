@@ -6,6 +6,7 @@ html {
 /* -- Body --*/
 
 body {
+    display: flex;
     margin: 0;
     font-family: "Open Sans", sans-serif;
     color: black;
