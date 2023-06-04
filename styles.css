@@ -42,8 +42,8 @@ p {
 /* --Navigation --*/
 
     nav {
-        display:block
-        justify-content: space-around;
+        display: inline-block;
+        justify-content: right;
         padding: 1rem 0.5 rem;
     }
 
@@ -58,12 +58,12 @@ p {
 /* -- Projects section --*/
 
     .projects {
-        display:block;
+        display: inline-block;
     }
 
 /* -- Skills section --*/
     .skills {
-        display:block;
+        display: inline-block;
     }
 
 /* -- Footer section --*/
