@@ -50,15 +50,14 @@ p {
 /* --About me and coding sections --*/
     .about
     .coding  {
-        display: flex;
-
+        
 
     }
 
 /* -- Projects section --*/
 
     .projects {
-        display: flex;
+       
     }
 
 /* -- Skills section --*/
@@ -68,7 +67,7 @@ p {
 
 /* -- Footer section --*/
     footer {
-        display:inline-flex
+        
     }
 
 /* -- --*/
