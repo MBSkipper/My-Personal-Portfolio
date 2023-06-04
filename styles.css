@@ -41,7 +41,7 @@ p {
 /* --Navigation --*/
 
     nav {
-        display: inline;
+        
         justify-content: space-around;
         padding: 1rem 0.5 rem;
     }
@@ -51,14 +51,24 @@ p {
     .about
     .coding  {
         display: flex;
-        
+
 
     }
 
 /* -- Projects section --*/
 
+    .projects {
+        display: flex;
+    }
+
 /* -- Skills section --*/
+    .skills {
+
+    }
 
 /* -- Footer section --*/
+    footer {
+        display:inline-flex
+    }
 
 /* -- --*/
