@@ -41,7 +41,7 @@ p {
 /* --Navigation --*/
 
     nav {
-        
+        display:block
         justify-content: space-around;
         padding: 1rem 0.5 rem;
     }
@@ -50,24 +50,24 @@ p {
 /* --About me and coding sections --*/
     .about
     .coding  {
-        
+        display:block;
 
     }
 
 /* -- Projects section --*/
 
     .projects {
-       
+        display:block;
     }
 
 /* -- Skills section --*/
     .skills {
-
+        display:block;
     }
 
 /* -- Footer section --*/
     footer {
-        
+        display:block; 
     }
 
 /* -- --*/
