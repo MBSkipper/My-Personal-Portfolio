@@ -6,8 +6,7 @@ html {
 /* -- Body --*/
 
 body {
-    display: flex;
-    margin: 0;
+    margin: 3 rem;
     font-family: "Open Sans", sans-serif;
     color: black;
     background-color:white;
@@ -40,14 +39,14 @@ p {
     }
 
 /* --Navigation --*/
-/*
+
     nav {
-        display: inline-block;
+        display:block;
         justify-content: right;
         padding: 1rem 0.5 rem;
     }
 
-*/
+
 /* --About me and coding sections --*/
     .about
     .coding  {
@@ -58,12 +57,12 @@ p {
 /* -- Projects section --*/
 
     .projects {
-        display: inline-block;
+        display: block;
     }
 
 /* -- Skills section --*/
     .skills {
-        display: inline-block;
+        display: block;
     }
 
 /* -- Footer section --*/
