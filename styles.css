@@ -67,14 +67,14 @@ p {
 
 /* -- Skills section --*/
     .skills {
-        display: flex;
+        display: block;
         justify-content: flex-start;
         align-items: center;
     }
 
 /* -- Footer section --*/
     footer {
-        display:flex;
+        display:block;
         justify-content: flex-start;
         align-items: center; 
     }
