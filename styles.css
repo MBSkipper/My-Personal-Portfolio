@@ -14,7 +14,7 @@ body {
   }
 
   .main {
-    margin: 3 rem;
+    margin: 2rem;
   }
 
 p {
@@ -44,8 +44,8 @@ p {
 /* --Navigation --*/
 
     nav {
-        display:block;
-        justify-content: right;
+        display:flex;
+        justify-content: center;
         padding: 1rem 0.5 rem;
     }
 
@@ -60,17 +60,17 @@ p {
 /* -- Projects section --*/
 
     .projects {
-        display: block;
+        display: flex;
     }
 
 /* -- Skills section --*/
     .skills {
-        display: block;
+        display: flex;
     }
 
 /* -- Footer section --*/
     footer {
-        display:block; 
+        display:flex; 
     }
 
 /* -- --*/
