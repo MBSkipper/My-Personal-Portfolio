@@ -60,7 +60,7 @@ p {
 /* -- Projects section --*/
 
     .projects {
-        display: flex;
+        display: block;
         justify-content: flex-start;
         align-items: center;
     }
