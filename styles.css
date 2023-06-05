@@ -61,16 +61,19 @@ p {
 
     .projects {
         display: flex;
+        align-items: center;
     }
 
 /* -- Skills section --*/
     .skills {
         display: flex;
+        align-items: center;
     }
 
 /* -- Footer section --*/
     footer {
-        display:flex; 
+        display:flex;
+        align-items: flex-start; 
     }
 
 /* -- --*/
