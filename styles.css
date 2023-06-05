@@ -61,19 +61,22 @@ p {
 
     .projects {
         display: flex;
+        justify-content: flex-start;
         align-items: center;
     }
 
 /* -- Skills section --*/
     .skills {
         display: flex;
+        justify-content: flex-start;
         align-items: center;
     }
 
 /* -- Footer section --*/
     footer {
         display:flex;
-        align-items: flex-start; 
+        justify-content: flex-start;
+        align-items: center; 
     }
 
 /* -- --*/
