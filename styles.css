@@ -6,12 +6,15 @@ html {
 /* -- Body --*/
 
 body {
-    margin: 3 rem;
     font-family: "Open Sans", sans-serif;
     color: black;
     background-color:white;
     text-align:left;
     
+  }
+
+  .main {
+    margin: 3 rem;
   }
 
 p {
