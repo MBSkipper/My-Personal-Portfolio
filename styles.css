@@ -42,11 +42,20 @@ p {
         font-size: 1rem;
     }
 
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    h6 {
+        font-size: 0.6rem;
+    }
+
 /* --Navigation --*/
 
     nav {
-        display:flex;
+        display: flex;
         flex-flow: row wrap;
+        flex-basis: auto;
         justify-content: center;
         align-items: flex-start;
     }
@@ -56,6 +65,7 @@ p {
     .about
     .coding  {
         display:flex;
+        flex-basis: auto;
 
     }
 
@@ -67,14 +77,11 @@ p {
         justify-content: flex-start;
         align-items:flex-start;
         flex-grow: 1;
+        flex-basis: auto;
     }
 
     .examples {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-        align-items:flex-start;
-        flex-grow: 1;
+        flex: 1 1 0%;
     }
 
 /* -- Skills section --*/
@@ -88,6 +95,7 @@ p {
         flex-flow: column wrap;
         justify-content: flex-start;
         align-items: center; 
+        flex-basis: auto;
     }
 
 /* -- --*/
