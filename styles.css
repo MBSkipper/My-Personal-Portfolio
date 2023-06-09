@@ -63,12 +63,16 @@ p {
 
 /* --About me and coding sections --*/
     .about  {
+        height: auto;
+        width: auto;
         display:flex;
         background-color: lightgray;
         flex-flow: column nowrap;
     }
 
     .coding {
+        height: auto;
+        width: auto;
         display:flex;
         background-color: whitesmoke;
         flex-flow: column nowrap;
@@ -76,33 +80,47 @@ p {
 
 /* -- Projects section --*/
 
-    .projects {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-grow: 1;
-        flex-basis: auto;
-        background-color: lightgray;
+    .proj_heading{
+    flex-wrap: wrap;
+    flex-flow: column wrap;
     }
 
+    .projects {
+        display: flex;
+        flex-flow: column wrap;
+        /*justify-content: flex-start;
+        align-items: flex-start;
+        flex-grow: 1;
+        flex-basis: auto; */
+        background-color: lightgray;
+    }
+     
     .examples {
-        flex: 1 1 0%;
+        flex: 1 1 100%;
+        align-content:center
     }
 
 /* -- Skills section --*/
+    .skill_header {
+        flex-wrap: wrap;
+        
+    }
+
     .skills {
+        height: 200px;
+        width: auto;
         display: flex;
         flex-flow: row wrap;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         align-items: flex-start;
-        flex-grow: 1;
-        flex-basis: auto;
+        flex: 1 1 100%;
         background-color: whitesmoke;
     }
 
 /* -- Footer section --*/
     footer {
+        height: auto;
+        width: auto;
         display:flex;
         flex-flow: column wrap;
         justify-content: flex-start;
