@@ -19,8 +19,8 @@ body {
   }
 
 p {
-        font-size: 1rem;
-    }
+    font-size: 1rem;
+  }
 
 
 
@@ -62,22 +62,28 @@ p {
 
 
 /* --About me and coding sections --*/
-    .about
-    .coding  {
+    .about  {
         display:flex;
-        flex-basis: auto;
+        background-color: lightgray;
+        flex-flow: column nowrap;
+    }
 
+    .coding {
+        display:flex;
+        background-color: whitesmoke;
+        flex-flow: column nowrap;
     }
 
 /* -- Projects section --*/
 
     .projects {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         justify-content: flex-start;
-        align-items:flex-start;
+        align-items: flex-start;
         flex-grow: 1;
         flex-basis: auto;
+        background-color: lightgray;
     }
 
     .examples {
@@ -86,7 +92,13 @@ p {
 
 /* -- Skills section --*/
     .skills {
-        
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-grow: 1;
+        flex-basis: auto;
+        background-color: whitesmoke;
     }
 
 /* -- Footer section --*/
